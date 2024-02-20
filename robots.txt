@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /old/
+Disallow: /new/
+Disallow: /404.html
+Disallow: /gracias.html
+Disallow: /esp/404.html
+Disallow: /esp/gracias.html
+
+Sitemap: http://www.yoiecotours.com/sitemap.xml
