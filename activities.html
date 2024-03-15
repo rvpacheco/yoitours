@@ -8,24 +8,21 @@
   <meta name="keywords"
     content="amazon, tours, colombia, leticia, yoi, ecolodge, tours, yoiecotours, ecotours, ecotourism, tour, amazon rainforest, amazon river, amazonas, amazonás, travel">
 
-  <title>What to do in the Amazon jungle of Colombia? | Best Amazon Tours</title>
+  <title>Yoi Amazon Tours | Amazon Lodge | Colombia Leticia</title>
 
-  <meta name="description" content="[missing &quot;en.activities.header.description&quot; translation]">
+  <meta name="description"
+    content="Personalized ecofriendly Amazon Tours and Amazon  Lodge in the middle of the Amazon rainforest in the Amacayacu National Park near Leticia, Colombia.">
+
 
   <meta property="og:title" content="Yoi Amazon Tours | Amazon Lodge | Colombia Leticia" />
-
   <meta property="og:description"
     content="Personalized ecofriendly Amazon Tours and Amazon  Lodge in the middle of the Amazon rainforest in the Amacayacu National Park near Leticia, Colombia." />
-
   <meta property="og:locale" content="en_US" />
-
   <meta property="og:type" content="Place" />
   <meta property="og:image" content="http://www.yoiecotours.com/images/logo-yoi-ecotours.png" />
   <meta property="fb:app_id" content="201950623196779" />
   <meta property="fb:admins" content="507820522" />
   <link rel="SHORTCUT ICON" href="favicon.ico">
-
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
   <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">
 
@@ -40,27 +37,40 @@
 
     gtag('config', 'AW-813681428');
   </script>
-  
 
-  <!-- Integración de Highslide -->
-  <link rel="stylesheet" type="text/css" href="/highslide.css" />
-  <script type="text/javascript" src="/highslide-full.js"></script>
   <script type="text/javascript">
-    hs.graphicsDir = 'images/';
-    hs.wrapperClassName = 'wide-border';
-    
-    // Esta función es para personalizar el aspecto del cuadro de diálogo, si lo necesitas
-    hs.Expander.prototype.onAfterExpand = function () {
-      var viewportHeight = hs.getPageSize().winHeight;
-      this.wrapper.style.height = (viewportHeight - 60) + 'px';
-    };
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-23674156-2']);
+    _gaq.push(['_trackPageview']);
 
-    function openFullscreen() {
-      return hs.htmlExpand(this, { objectType: 'iframe', width: 600, height: 400 });
-    }
-    
+    (function () {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
   </script>
-  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  <!-- Fotorama from CDNJS, 19 KB -->
+  <link href="fotorama.css" rel="stylesheet">
+  <script src="fotorama.js"></script>
+  <!-- CSS de FancyBox -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- JavaScript de FancyBox -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+  <script>
+    // Espera a que el documento esté completamente cargado
+    $(document).ready(function() {
+      // Inicializa FancyBox para todos los elementos con la clase "highslide"
+      $(".highslide").fancybox();
+    });
+  </script>
+
 
 </head>
 
@@ -69,38 +79,37 @@
   <input type="checkbox" class="mobilenav__trigger" id="mobilenav__trigger">
 
   <!-- Button which triggers this navigation is in _header.hbs file (<label for="mobilenav__trigger") -->
-    <nav class="mobilenav visible-xs">
-      <label for="mobilenav__trigger" class="mobilenav__toggle hotdog visible-xs">
-        <span></span><span></span><span></span>
-      </label>
-      
-      <a  href="/esp/index.html" 
-        class="spanishome spanishome--mobile visible-xs">Espa&ntilde;ol</a>
-    
-      <ul class="mobilenav__list menu">
-          <li><a href="index.html">home</a></li>
-          <li class="expand">
-           <a href="about-us.html">info</a>
-           <ul class="acitem">
-            <li><a href="about-us.html">about us</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="wildlife.html">wildlife</a></li>
-            </ul>
-          </li>
-          <li class="expand">
-            <a href="tours.html">tours</a>
-            <ul class="acitem">
-              <li> <a href="activities.html">activities</a> </li>
-              <li><a href="rates.html">rates</a></li>
-              
-            </ul>
-          </li>
-          <li>
-            <a href="hospedaje.html">Hospedaje</a>
-          </li>
-          <li><a href="contact-us.html">contact us</a></li>
-        </ul> 
-    </nav>
+  <nav class="mobilenav visible-xs">
+    <label for="mobilenav__trigger" class="mobilenav__toggle hotdog visible-xs">
+      <span></span><span></span><span></span>
+    </label>
+
+    <a href="/esp/index.html" class="spanishome spanishome--mobile visible-xs">Espa&ntilde;ol</a>
+
+    <ul class="mobilenav__list menu">
+      <li><a href="index.html">home</a></li>
+      <li class="expand">
+        <a href="about-us.html">info</a>
+        <ul class="acitem">
+          <li><a href="about-us.html">about us</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="wildlife.html">wildlife</a></li>
+        </ul>
+      </li>
+      <li class="expand">
+        <a href="tours.html">tours</a>
+        <ul class="acitem">
+          <li> <a href="activities.html">activities</a> </li>
+          <li><a href="rates.html">rates</a></li>
+
+        </ul>
+      </li>
+      <li>
+        <a href="hospedaje.html">Hospedaje</a>
+      </li>
+      <li><a href="contact-us.html">contact us</a></li>
+    </ul>
+  </nav>
   <!-- HEADER START -->
   <div id="header" class="">
 
@@ -150,25 +159,25 @@
             </a>
           </li>
           <li class="">
-           <a href="about-us.html">
-            info
-           </a>
-           <ul class="acitem">
-            <li>
-              <a href="about-us.html">
-                about us
-              </a>
-            </li>
-            <li>
-              <a href="faq.html">
-                FAQ
-              </a>
-            </li>
-            <li>
-              <a href="wildlife.html">
-                wildlife
-              </a>
-            </li>
+            <a href="about-us.html">
+              info
+            </a>
+            <ul class="acitem">
+              <li>
+                <a href="about-us.html">
+                  about us
+                </a>
+              </li>
+              <li>
+                <a href="faq.html">
+                  FAQ
+                </a>
+              </li>
+              <li>
+                <a href="wildlife.html">
+                  wildlife
+                </a>
+              </li>
             </ul>
           </li>
           <li>
@@ -176,17 +185,17 @@
               tours
             </a>
             <ul class="acitem">
-              <li> 
+              <li>
                 <a href="activities.html">
                   activities
-                </a> 
+                </a>
               </li>
               <li>
                 <a href="rates.html">
                   rates
                 </a>
               </li>
-              
+
             </ul>
           </li>
           <li>
@@ -287,310 +296,107 @@
               <strong>Wildlife Hikes</strong> &nbsp;-&nbsp;
               See a variety of animal species from monkeys and birds to insects and reptiles.
             </h2>
-          
+
             <!-- Carrusel de Bootstrap -->
-            <div id="carouselExampleControls" class="carousel slide" data-ride="false">
-              <div class="carousel-inner">
-          
-                <!-- Primera imagen -->
-                <div class="carousel-item active">
-                  <img src="images/wh16.jpg" class="d-block w-100" alt="Amazon Rainforest">
-                </div>
-          
-                <!-- Segunda imagen -->
-                <div class="carousel-item">
-                  <img src="images/wh2.jpg" class="d-block w-100" alt="Ceiba Tree">
-                  <div class="carousel-caption d-none d-md-block">
-                    Ceiba Tree
-                  </div>
-                </div>
-          
-                <!-- Tercera imagen -->
-                <div class="carousel-item">
-                  <img src="images/wh4.jpg" class="d-block w-100" alt="Three striped poison arrow frog - Ameerega trivittata">
-                  <div class="carousel-caption d-none d-md-block">
-                    Three Striped Poison Arrow Frog - <i>Ameerega trivittata</i>
-                  </div>
-                </div>
-          
-                <!-- Cuarta imagen -->
-                <div class="carousel-item">
-                  <img src="images/wh8.jpg" class="d-block w-100" alt="Common Squirrel Monkey -  Saimiri sciureus">
-                  <div class="carousel-caption d-none d-md-block">
-                    Common Squirrel Monkey - <i>Saimiri sciureus</i>
-                  </div>
-                </div>
-          
-                <!-- Quinta imagen -->
-                <div class="carousel-item">
-                  <img src="images/wh18.jpg" class="d-block w-100" alt="Brazilian Tapir footprint - Tapirus terrestris">
-                  <div class="carousel-caption d-none d-md-block">
-                    Brazilian Tapir footprint - <i>Tapirus terrestris</i>
-                  </div>
-                </div>
-          
-                <!-- Sexta imagen -->
-                <div class="carousel-item">
-                  <img src="images/wh10.jpg" class="d-block w-100" alt="Weevil - Family: Curculionidae">
-                  <div class="carousel-caption d-none d-md-block">
-                    Weevil - Family: <i>Curculionidae</i>
-                  </div>
-                </div>
-          
-                <!-- Séptima imagen -->
-                <div class="carousel-item">
-                  <img src="images/wh12.jpg" class="d-block w-100" alt="Ringed Tree boa - Corallus annulatus">
-                  <div class="carousel-caption d-none d-md-block">
-                    Ringed Tree Boa - <i>Corallus annulatus</i>
-                  </div>
-                </div>
-          
-              </div>
-          
-              <!-- Botones de control del carrusel -->
-              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
+            <p>
+            <div class="fotorama" data-nav="thumbs" data-allowfullscreen="true">
+              <img src="images/wh16.jpg" data-full="images/wh16.jpg" alt="Amazon Rainforest"
+                data-caption="Amazon Rainforest">
+              <img src="images/wh2.jpg" data-full="images/wh2.jpg" alt="Ceiba Tree" data-caption="Ceiba Tree">
+              <img src="images/wh4.jpg" data-full="images/wh4.jpg"
+                alt="Three striped poison arrow frog - Ameerega trivittata"
+                data-caption="Three striped poison arrow frog - Ameerega trivittata">
+              <img src="images/wh8.jpg" data-full="images/wh8.jpg" alt="Common Squirrel Monkey - Saimiri sciureus"
+                data-caption="Common Squirrel Monkey - Saimiri sciureus">
+              <img src="images/wh18.jpg" data-full="images/wh18.jpg"
+                alt="Brazilian Tapir footprint - Tapirus terrestris"
+                data-caption="Brazilian Tapir footprint - Tapirus terrestris">
+              <img src="images/wh10.jpg" data-full="images/wh10.jpg" alt="Weevil - Family: Curculionidae"
+                data-caption="Weevil - Family: Curculionidae">
+              <img src="images/wh12.jpg" data-full="images/wh12.jpg" alt="Ringed Tree boa - Corallus annulatus"
+                data-caption="Ringed Tree boa - Corallus annulatus">
             </div>
-          
+            </p>
+          </li>
+
+
+
+
+
+          <li>
+            <h2>
+              <strong>Bird Watching</strong> &nbsp;-&nbsp; Colombia is home to the highest number of bird species on the
+              planet, come spot a few.
+            </h2>
+
+            <div class="fotorama" data-nav="thumbs" data-allowfullscreen="true">
+              <img src="images/biwa2.jpg" data-full="images/biwa2.jpg"
+                alt="Orange Bellied Euphonia - Euphonia xanthogaster"
+                data-caption="Orange Bellied Euphonia - Euphonia xanthogaster">
+              <img src="images/biwa4.jpg" data-full="images/biwa4.jpg" alt="Wattled Jacana - Jacana jacana"
+                data-caption="Wattled Jacana - Jacana jacana">
+              <img src="images/biwa6.jpg" data-full="images/biwa6.jpg" alt="Ruficent Tiger Heron - Tigrisoma lineatum"
+                data-caption="Ruficent Tiger Heron - Tigrisoma lineatum">
+              <img src="images/Striated Heron.jpg" data-full="images/Striated Heron.jpg"
+                alt="Striated Heron - Butoridess striata" data-caption="Striated Heron - Butoridess striata">
+              <img src="images/slate colored hawk.jpg" data-full="images/slate colored hawk.jpg"
+                alt="Slate Colored Hawk - Buteogallus schistaceus"
+                data-caption="Slate Colored Hawk - Buteogallus schistaceus">
+              <img src="images/ornate hawk eagle.jpg" data-full="images/ornate hawk eagle.jpg" alt="Ornate hawk eagle"
+                data-caption="Ornate hawk eagle (juvenile) - Spizaetus ornatus">
+              <img src="images/Green backed Trogon.jpg" data-full="images/Green backed Trogon.jpg"
+                alt="Green backed Trogon" data-caption="Green backed Trogon (male) - Trogon viridis">
+              <img src="images/Great potoo.jpg" data-full="images/Great potoo.jpg" alt="Great potoo"
+                data-caption="Great potoo - Nyctibius grandis">
+              <img src="images/Scale breasted woodpecker.jpg" data-full="images/Scale breasted woodpecker.jpg"
+                alt="Scale breasted woodpecker" data-caption="Scale Breasted Woodpecker - Celus grammicus">
+            </div>
+
+
+
           </li>
 
           <li>
             <h2>
-              <strong>Bird Watching</strong> &nbsp;-&nbsp; Colombia is home to the highest number of bird species on the planet, come spot a few.
+              <strong>Canoeing</strong> &nbsp;-&nbsp; Paddle along the river using the traditional canoes of local
+              fishermen. See if your balance is good enough to keep you out of the river.
             </h2>
-          
-            <!-- Carrusel de Bootstrap -->
-            <div id="carouselBirdWatching" class="carousel slide" data-ride="false">
-              <div class="carousel-inner">
-          
-                <!-- Primera imagen -->
-                <div class="carousel-item active">
-                  <img src="images/biwa2.jpg" class="d-block w-100" alt="Orange Bellied Euphonia - Euphonia xanthogaster">
-                  <div class="carousel-caption d-none d-md-block">
-                    Orange Bellied Euphonia - <i>Euphonia xanthogaster</i>
-                  </div>
-                </div>
-          
-                <!-- Segunda imagen -->
-                <div class="carousel-item">
-                  <img src="images/biwa4.jpg" class="d-block w-100" alt="Wattled Jacana - Jacana jacana">
-                  <div class="carousel-caption d-none d-md-block">
-                    Wattled Jacana - <i>Jacana jacana</i>
-                  </div>
-                </div>
-          
-                <!-- Tercera imagen -->
-                <div class="carousel-item">
-                  <img src="images/biwa6.jpg" class="d-block w-100" alt="Ruficent Tiger Heron - Tigrisoma lineatum">
-                  <div class="carousel-caption d-none d-md-block">
-                    Ruficent Tiger Heron - <i>Tigrisoma lineatum</i>
-                  </div>
-                </div>
-          
-                <!-- Cuarta imagen -->
-                <div class="carousel-item">
-                  <img src="images/Striated Heron.jpg" class="d-block w-100" alt="Striated Heron - Butoridess striata">
-                  <div class="carousel-caption d-none d-md-block">
-                    Striated Heron - <i>Butoridess striata</i>
-                  </div>
-                </div>
-          
-                <!-- Quinta imagen -->
-                <div class="carousel-item">
-                  <img src="images/slate colored hawk.jpg" class="d-block w-100" alt="Slate Colored Hawk - Buteogallus schistaceus">
-                  <div class="carousel-caption d-none d-md-block">
-                    Slate Colored Hawk - <i>Buteogallus schistaceus</i>
-                  </div>
-                </div>
-          
-                <!-- Sexta imagen -->
-                <div class="carousel-item">
-                  <img src="images/ornate hawk eagle.jpg" class="d-block w-100" alt="Ornate hawk eagle">
-                  <div class="carousel-caption d-none d-md-block">
-                    Ornate hawk eagle (juvenile) - <i>Spizaetus ornatus</i>
-                  </div>
-                </div>
-          
-                <!-- Séptima imagen -->
-                <div class="carousel-item">
-                  <img src="images/Green backed Trogon.jpg" class="d-block w-100" alt="Green backed Trogon">
-                  <div class="carousel-caption d-none d-md-block">
-                    Green backed Trogon (male) - <i>Trogon viridis</i>
-                  </div>
-                </div>
-          
-                <!-- Octava imagen -->
-                <div class="carousel-item">
-                  <img src="images/Great potoo.jpg" class="d-block w-100" alt="Great potoo">
-                  <div class="carousel-caption d-none d-md-block">
-                    Great potoo - <i>Nyctibius grandis</i>
-                  </div>
-                </div>
-          
-                <!-- Novena imagen -->
-                <div class="carousel-item">
-                  <img src="images/Scale breasted woodpecker.jpg" class="d-block w-100" alt="Scale breasted woodpecker">
-                  <div class="carousel-caption d-none d-md-block">
-                    Scale Breasted Woodpecker - <i>Celus grammicus</i>
-                  </div>
-                </div>
-          
-              </div>
-          
-              <!-- Botones de control del carrusel -->
-              <a class="carousel-control-prev" href="#carouselBirdWatching" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselBirdWatching" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
+
+            <div class="fotorama" data-nav="thumbs" data-allowfullscreen="true">
+              <img src="images/c10.jpg" data-full="images/c10.jpg" alt="Sunny Day on the Amacayacu River">
+              <img src="images/c2.jpg" data-full="images/c2.jpg" alt="Canoeing along a beach during the dry season">
+              <img src="images/c4.jpg" data-full="images/c4.jpg" alt="A quiet moment on a little Amazon lake">
+              <img src="images/c6.jpg" data-full="images/c6.jpg" alt="Ceiba tree along Amacayacu river">
+              <img src="images/c8.jpg" data-full="images/c8.jpg" alt="Amacayacu river">
+              <img src="images/c12.jpg" data-full="images/c12.jpg" alt="Amacayacu river">
+              <img src="images/c14.jpg" data-full="images/c14.jpg" alt="Amacayacu river">
             </div>
-          
+
+
           </li>
 
-          <li>
-            <hh2>
-              <strong>Canoeing</strong> &nbsp;-&nbsp; Paddle along the river using the traditional canoes of local fishermen. See if your balance is good enough to keep you out of the river.
-            </h2>
-          
-            <!-- Carrusel de Bootstrap -->
-            <div id="carouselCanoeing" class="carousel slide" data-ride="false">
-              <div class="carousel-inner">
-          
-                <!-- Primera imagen -->
-                <div class="carousel-item active">
-                  <img src="images/c10.jpg" class="d-block w-100" alt="Sunny Day on the Amacayacu River">
-                </div>
-          
-                <!-- Segunda imagen -->
-                <div class="carousel-item">
-                  <img src="images/c2.jpg" class="d-block w-100" alt="Canoeing along a beach during the dry season">
-                </div>
-          
-                <!-- Tercera imagen -->
-                <div class="carousel-item">
-                  <img src="images/c4.jpg" class="d-block w-100" alt="A quiet moment on a little Amazon lake">
-                </div>
-          
-                <!-- Cuarta imagen -->
-                <div class="carousel-item">
-                  <img src="images/c6.jpg" class="d-block w-100" alt="Ceiba tree along Amacayacu river">
-                </div>
-          
-                <!-- Quinta imagen -->
-                <div class="carousel-item">
-                  <img src="images/c8.jpg" class="d-block w-100" alt="Amacayacu river">
-                </div>
-          
-                <!-- Sexta imagen -->
-                <div class="carousel-item">
-                  <img src="images/c12.jpg" class="d-block w-100" alt="Amacayacu river">
-                </div>
-          
-                <!-- Séptima imagen -->
-                <div class="carousel-item">
-                  <img src="images/c14.jpg" class="d-block w-100" alt="Amacayacu river">
-                </div>
-          
-              </div>
-          
-              <!-- Botones de control del carrusel -->
-              <a class="carousel-control-prev" href="#carouselCanoeing" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselCanoeing" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
-          
-          </li>
-          
 
           <li>
             <h2>
               <strong>Fishing</strong> &nbsp;-&nbsp; Fish for piranhas and other local fish.
             </h2>
-          
-            <!-- Carrusel de Bootstrap -->
-            <div id="carouselFishing" class="carousel slide" data-ride="false">
-              <div class="carousel-inner">
-          
-                <!-- Primera imagen -->
-                <div class="carousel-item active">
-                  <img src="images/f2.jpg" class="d-block w-100" alt="Highslide JS">
-                </div>
-          
-                <!-- Segunda imagen -->
-                <div class="carousel-item">
-                  <img src="images/fishy2.jpg" class="d-block w-100" alt="Piranha - Subfamily:Serrasalminae">
-                  <div class="carousel-caption d-none d-md-block">
-                    Paco
-                  </div>
-                </div>
-          
-                <!-- Tercera imagen -->
-                <div class="carousel-item">
-                  <img src="images/f4.jpg" class="d-block w-100" alt="Our guide Reynaldo with a Pintadillo catfish">
-                  <div class="carousel-caption d-none d-md-block">
-                    Our guide Reynaldo with a Tiger Shovelnose Catfish - <i>Pseudoplatystoma fasciatum</i>
-                  </div>
-                </div>
-          
-                <!-- Cuarta imagen -->
-                <div class="carousel-item">
-                  <img src="images/f6.jpg" class="d-block w-100" alt="Piranha - Subfamily:Serrasalminae">
-                  <div class="carousel-caption d-none d-md-block">
-                    Piranha - Subfamily: <i>Serrasalminae</i>
-                  </div>
-                </div>
-          
-                <!-- Quinta imagen -->
-                <div class="carousel-item">
-                  <img src="images/f8.jpg" class="d-block w-100" alt="Red-tailed catfish">
-                  <div class="carousel-caption d-none d-md-block">
-                    Red-tailed catfish - <i>Phractocephalus hemioliopterus</i>
-                  </div>
-                </div>
-          
-                <!-- Sexta imagen -->
-                <div class="carousel-item">
-                  <img src="images/piranha2.jpg" class="d-block w-100" alt="Piranha - Subfamily:Serrasalminae">
-                  <div class="carousel-caption d-none d-md-block">
-                    Piranha - Subfamily: <i>Serrasalminae</i>
-                  </div>
-                </div>
-          
-                <!-- Séptima imagen -->
-                <div class="carousel-item">
-                  <img src="images/fishy4.jpg" class="d-block w-100" alt="Piranha - Subfamily:Serrasalminae">
-                  <div class="carousel-caption d-none d-md-block">
-                    Piranha - Subfamily: <i>Serrasalminae</i>
-                  </div>
-                </div>
-          
-              </div>
-          
-              <!-- Botones de control del carrusel -->
-              <a class="carousel-control-prev" href="#carouselFishing" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselFishing" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
+
+            <div class="fotorama" data-nav="thumbs" data-allowfullscreen="true">
+              <img src="images/f2.jpg" data-full="images/f2.jpg" alt="Highslide JS" data-caption="Highslide JS">
+              <img src="images/fishy2.jpg" data-full="images/fishy2.jpg" alt="Piranha - Subfamily:Serrasalminae"
+                data-caption="Piranha - Subfamily:Serrasalminae">
+              <img src="images/f4.jpg" data-full="images/f4.jpg" alt="Our guide Reynaldo with a Pintadillo catfish"
+                data-caption="Our guide Reynaldo with a Pintadillo catfish">
+              <img src="images/f6.jpg" data-full="images/f6.jpg" alt="Piranha - Subfamily:Serrasalminae"
+                data-caption="Piranha - Subfamily:Serrasalminae">
+              <img src="images/f8.jpg" data-full="images/f8.jpg" alt="Red-tailed catfish"
+                data-caption="Red-tailed catfish">
+              <img src="images/piranha2.jpg" data-full="images/piranha2.jpg" alt="Piranha - Subfamily:Serrasalminae"
+                data-caption="Piranha - Subfamily:Serrasalminae">
+              <img src="images/fishy4.jpg" data-full="images/fishy4.jpg" alt="Piranha - Subfamily:Serrasalminae"
+                data-caption="Piranha - Subfamily:Serrasalminae">
             </div>
-          
+
           </li>
 
           <li>
@@ -598,90 +404,27 @@
               <strong>Blackwater Lake Excursion - Lake Tarapoto &amp; Puerto Nariño</strong> &nbsp;- &nbsp;
               A chance to see the two Amazonian dolphin species and maybe go for a swim.
             </h2>
-          
-            <!-- Carrusel de Bootstrap -->
-            <div id="carouselBlackwaterLake" class="carousel slide" data-ride="false">
-              <div class="carousel-inner">
-          
-                <!-- Primera imagen -->
-                <div class="carousel-item active">
-                  <img src="images/tarapoto canoe.jpg" class="d-block w-100" alt="Lake Tarapoto">
-                  <div class="carousel-caption d-none d-md-block">
-                    Lake Tarapoto
-                  </div>
-                </div>
-          
-                <!-- Segunda imagen -->
-                <div class="carousel-item">
-                  <img src="images/bw4.jpg" class="d-block w-100" alt="Lake Tarapoto">
-                  <div class="carousel-caption d-none d-md-block">
-                    Lake Tarapoto
-                  </div>
-                </div>
-          
-                <!-- Tercera imagen -->
-                <div class="carousel-item">
-                  <img src="images/bw8.jpg" class="d-block w-100" alt="Grey Dolphin - Sotalia fluviatilis">
-                  <div class="carousel-caption d-none d-md-block">
-                    Grey Dolphin - <i>Sotalia fluviatilis</i>
-                  </div>
-                </div>
-          
-                <!-- Cuarta imagen -->
-                <div class="carousel-item">
-                  <img src="images/bw10.jpg" class="d-block w-100" alt="Grey Dolphin - Sotalia fluviatilis">
-                  <div class="carousel-caption d-none d-md-block">
-                    Grey Dolphin - <i>Sotalia fluviatilis</i>
-                  </div>
-                </div>
-          
-                <!-- Quinta imagen -->
-                <div class="carousel-item">
-                  <img src="images/bw16.jpg" class="d-block w-100" alt="Pink Dolphin - Inia geoferensis">
-                  <div class="carousel-caption d-none d-md-block">
-                    Pink Dolphin - <i>Inia geoferensis</i>
-                  </div>
-                </div>
-          
-                <!-- Sexta imagen -->
-                <div class="carousel-item">
-                  <img src="images/bw12.jpg" class="d-block w-100" alt="Pink Dolphin - Inia geoferensis">
-                  <div class="carousel-caption d-none d-md-block">
-                    Pink Dolphin - <i>Inia geoferensis</i>
-                  </div>
-                </div>
-          
-                <!-- Séptima imagen -->
-                <div class="carousel-item">
-                  <img src="images/bw14.jpg" class="d-block w-100" alt="Pink Dolphin - Inia geoferensis">
-                  <div class="carousel-caption d-none d-md-block">
-                    Pink Dolphin - <i>Inia geoferensis</i>
-                  </div>
-                </div>
-          
-                <!-- Octava imagen -->
-                <div class="carousel-item">
-                  <img src="images/bw2.jpg" class="d-block w-100" alt="Great Egret - Ardea alba">
-                  <div class="carousel-caption d-none d-md-block">
-                    Great Egret - <i>Ardea alba</i>
-                  </div>
-                </div>
-          
-              </div>
-          
-              <!-- Botones de control del carrusel -->
-              <a class="carousel-control-prev" href="#carouselBlackwaterLake" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselBlackwaterLake" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
+
+            <div class="fotorama" data-nav="thumbs" data-allowfullscreen="true">
+              <img src="images/tarapoto canoe.jpg" data-full="images/tarapoto canoe.jpg" alt="Lake Tarapoto"
+                data-caption="Lake Tarapoto">
+              <img src="images/bw4.jpg" data-full="images/bw4.jpg" alt="Lake Tarapoto" data-caption="Lake Tarapoto">
+              <img src="images/bw8.jpg" data-full="images/bw8.jpg" alt="Grey Dolphin - Sotalia fluviatilis"
+                data-caption="Grey Dolphin - Sotalia fluviatilis">
+              <img src="images/bw10.jpg" data-full="images/bw10.jpg" alt="Grey Dolphin - Sotalia fluviatilis"
+                data-caption="Grey Dolphin - Sotalia fluviatilis">
+              <img src="images/bw16.jpg" data-full="images/bw16.jpg" alt="Pink Dolphin - Inia geoferensis"
+                data-caption="Pink Dolphin - Inia geoferensis">
+              <img src="images/bw12.jpg" data-full="images/bw12.jpg" alt="Pink Dolphin - Inia geoferensis"
+                data-caption="Pink Dolphin - Inia geoferensis">
+              <img src="images/bw14.jpg" data-full="images/bw14.jpg" alt="Pink Dolphin - Inia geoferensis"
+                data-caption="Pink Dolphin - Inia geoferensis">
+              <img src="images/bw2.jpg" data-full="images/bw2.jpg" alt="Great Egret - Ardea alba"
+                data-caption="Great Egret - Ardea alba">
             </div>
-          
+
           </li>
-          
+
 
           <li>
             <h2>
@@ -690,326 +433,111 @@
               An evening excursion looking for members of the alligator family. Guests will have a chance to see these
               predators up close.
             </h2>
-          
-            <!-- Carrusel de Bootstrap -->
-            <div id="carouselSearchCaimans" class="carousel slide" data-ride="false">
-              <div class="carousel-inner">
-          
-                <!-- Primera imagen -->
-                <div class="carousel-item active">
-                  <img src="images/sc2.jpg" class="d-block w-100" alt="Smooth Fronted Caiman - Paleosuchus trigonatus">
-                  <div class="carousel-caption d-none d-md-block">
-                    Smooth Fronted Caiman - <i>Paleosuchus trigonatus</i>
-                  </div>
-                </div>
-          
-                <!-- Segunda imagen -->
-                <div class="carousel-item">
-                  <img src="images/sc4.jpg" class="d-block w-100" alt="Smooth Fronted Caiman - Paleosuchus trigonatus">
-                  <div class="carousel-caption d-none d-md-block">
-                    Smooth Fronted Caiman - <i>Paleosuchus trigonatus</i>
-                  </div>
-                </div>
-          
-                <!-- Tercera imagen -->
-                <div class="carousel-item">
-                  <img src="images/sc6.jpg" class="d-block w-100" alt="White Caiman - Caiman crocodilus">
-                  <div class="carousel-caption d-none d-md-block">
-                    White Caiman - <i>Caiman crocodilus</i>
-                  </div>
-                </div>
-          
-                <!-- Cuarta imagen -->
-                <div class="carousel-item">
-                  <img src="images/dwarf caiman.jpg" class="d-block w-100" alt="Curviers Dwarf Caiman - Paleosuchus palpebrosus">
-                  <div class="carousel-caption d-none d-md-block">
-                    Curviers Dwarf Caiman - <i>Paleosuchus palpebrosus</i>
-                  </div>
-                </div>
-          
-                <!-- Quinta imagen -->
-                <div class="carousel-item">
-                  <img src="images/sc8.jpg" class="d-block w-100" alt="Smooth Fronted Caiman - Paleosuchus trigonatus">
-                  <div class="carousel-caption d-none d-md-block">
-                    Smooth Fronted Caiman - <i>Paleosuchus trigonatus</i>
-                  </div>
-                </div>
-          
-                <!-- Sexta imagen -->
-                <div class="carousel-item">
-                  <img src="images/blackcaiman.jpg" class="d-block w-100" alt="Black Caiman - Melanosuchus niger">
-                  <div class="carousel-caption d-none d-md-block">
-                    Black Caiman - <i>Melanosuchus niger</i>
-                  </div>
-                </div>
-          
-              </div>
-          
-              <!-- Botones de control del carrusel -->
-              <a class="carousel-control-prev" href="#carouselSearchCaimans" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselSearchCaimans" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
+
+            <div class="fotorama" data-nav="thumbs" data-allowfullscreen="true">
+              <img src="images/sc2.jpg" data-full="images/sc2.jpg" alt="Smooth Fronted Caiman - Paleosuchus trigonatus"
+                data-caption="Smooth Fronted Caiman - Paleosuchus trigonatus">
+              <img src="images/sc4.jpg" data-full="images/sc4.jpg" alt="Smooth Fronted Caiman - Paleosuchus trigonatus"
+                data-caption="Smooth Fronted Caiman - Paleosuchus trigonatus">
+              <img src="images/sc6.jpg" data-full="images/sc6.jpg" alt="White Caiman - Caiman crocodilus"
+                data-caption="White Caiman - Caiman crocodilus">
+              <img src="images/dwarf caiman.jpg" data-full="images/dwarf caiman.jpg"
+                alt="Curviers Dwarf Caiman - Paleosuchus palpebrosus"
+                data-caption="Curviers Dwarf Caiman - Paleosuchus palpebrosus">
+              <img src="images/sc8.jpg" data-full="images/sc8.jpg" alt="Smooth Fronted Caiman - Paleosuchus trigonatus"
+                data-caption="Smooth Fronted Caiman - Paleosuchus trigonatus">
+              <img src="images/blackcaiman.jpg" data-full="images/blackcaiman.jpg"
+                alt="Black Caiman - Melanosuchus niger" data-caption="Black Caiman - Melanosuchus niger">
             </div>
-          
+
+
+
+
+
           </li>
-          
+
 
 
           <li>
             <h2>
-              <strong>
-                Hunting Weapon Classes
-              </strong> &nbsp;-&nbsp;
+              <strong>Hunting Weapon Classes</strong> &nbsp;-&nbsp;
               Hunters have long used the blow gun and bow and arrow to feed their families. Test your skill with these
               traditional hunting tools.
             </h2>
-          
-            <!-- Carrusel de Bootstrap -->
-            <div id="carouselHuntingWeapons" class="carousel slide" data-ride="false">
-              <div class="carousel-inner">
-          
-                <!-- Primera imagen -->
-                <div class="carousel-item active">
-                  <img src="images/hwc4.jpg" class="d-block w-100" alt="Highslide JS">
-                </div>
-          
-                <!-- Segunda imagen -->
-                <div class="carousel-item">
-                  <img src="images/hwc2.jpg" class="d-block w-100" alt="Highslide JS">
-                </div>
-          
-                <!-- Tercera imagen -->
-                <div class="carousel-item">
-                  <img src="images/hwc10.jpg" class="d-block w-100" alt="Highslide JS">
-                </div>
-          
-                <!-- Cuarta imagen -->
-                <div class="carousel-item">
-                  <img src="images/hwc8.jpg" class="d-block w-100" alt="Highslide JS">
-                </div>
-          
-                <!-- Quinta imagen -->
-                <div class="carousel-item">
-                  <img src="images/hwc6.jpg" class="d-block w-100" alt="Highslide JS">
-                </div>
-          
-                <!-- Sexta imagen -->
-                <div class="carousel-item">
-                  <img src="images/archery2.jpg" class="d-block w-100" alt="Highslide JS">
-                </div>
-          
-              </div>
-          
-              <!-- Botones de control del carrusel -->
-              <a class="carousel-control-prev" href="#carouselHuntingWeapons" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselHuntingWeapons" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
+
+            <div class="fotorama" data-nav="thumbs" data-allowfullscreen="true">
+              <img src="images/hwc4.jpg" data-full="images/hwc4.jpg" alt="Hunting Weapon Classes"
+                data-caption="Blow gun">
+              <img src="images/hwc2.jpg" data-full="images/hwc2.jpg" alt="Hunting Weapon Classes"
+                data-caption="Bow and arrow">
+              <img src="images/hwc10.jpg" data-full="images/hwc10.jpg" alt="Hunting Weapon Classes"
+                data-caption="Blow gun">
+              <img src="images/hwc8.jpg" data-full="images/hwc8.jpg" alt="Hunting Weapon Classes"
+                data-caption="Blow gun">
+              <img src="images/hwc6.jpg" data-full="images/hwc6.jpg" alt="Hunting Weapon Classes"
+                data-caption="Bow and arrow">
+              <img src="images/archery2.jpg" data-full="images/archery2.jpg" alt="Hunting Weapon Classes"
+                data-caption="Bow and arrow">
             </div>
-          
+
           </li>
-          
+
 
           <li>
             <h2>
-              <strong>
-                Tour of San Martin
-              </strong> &nbsp;- &nbsp;
+              <strong>Tour of San Martin</strong> &nbsp;-&nbsp;
               Visit the Ticuna community of San Martin. Meet the natives and learn how an indigenous community
               functions.
             </h2>
-          
-            <!-- Carrusel de Bootstrap -->
-            <div id="carouselSanMartin" class="carousel slide" data-ride="false">
-              <div class="carousel-inner">
-          
-                <!-- Primera imagen -->
-                <div class="carousel-item active">
-                  <img src="images/sanmartin.jpg" class="d-block w-100" alt="San Martin">
-                </div>
-          
-                <!-- Segunda imagen -->
-                <div class="carousel-item">
-                  <img src="images/sm2.jpg" class="d-block w-100" alt="San Martin">
-                </div>
-          
-                <!-- Tercera imagen -->
-                <div class="carousel-item">
-                  <img src="images/sm4.jpg" class="d-block w-100" alt="San Martin">
-                </div>
-          
-                <!-- Cuarta imagen -->
-                <div class="carousel-item">
-                  <img src="images/sm8.jpg" class="d-block w-100" alt="Fariña">
-                  <div class="carousel-caption d-none d-md-block">Preperation of the Amazonian staple food called fariña</div>
-                </div>
-          
-                <!-- Quinta imagen -->
-                <div class="carousel-item">
-                  <img src="images/sm6.jpg" class="d-block w-100" alt="San Martin">
-                </div>
-          
-                <!-- Sexta imagen -->
-                <div class="carousel-item">
-                  <img src="images/kids.jpg" class="d-block w-100" alt="San Martin">
-                </div>
-          
-              </div>
-          
-              <!-- Botones de control del carrusel -->
-              <a class="carousel-control-prev" href="#carouselSanMartin" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselSanMartin" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
+
+            <div class="fotorama" data-nav="thumbs" data-allowfullscreen="true">
+              <img src="images/sanmartin.jpg" data-full="images/sanmartin.jpg" alt="San Martin">
+              <img src="images/sm2.jpg" data-full="images/sm2.jpg" alt="San Martin">
+              <img src="images/sm4.jpg" data-full="images/sm4.jpg" alt="San Martin">
+              <img src="images/sm8.jpg" data-full="images/sm8.jpg" alt="Fariña"
+                data-caption="Preparation of the Amazonian staple food called fariña">
+              <img src="images/sm6.jpg" data-full="images/sm6.jpg" alt="San Martin">
+              <img src="images/kids.jpg" data-full="images/kids.jpg" alt="San Martin">
             </div>
-          
+
           </li>
-          
+
 
           <li>
             <h2>
-              <strong>Beaches</strong>
-              &nbsp;- &nbsp;
+              <strong>Beaches</strong> &nbsp;-&nbsp;
               Relax and take in the sun on beautiful sandy beaches along the river.
             </h2>
-          
-            <!-- Carrusel de Bootstrap -->
-            <div id="carouselBeaches" class="carousel slide" data-ride="false">
-              <div class="carousel-inner">
-          
-                <!-- Primera imagen -->
-                <div class="carousel-item active">
-                  
-                    <img src="images/b2.jpg" class="d-block w-100" alt="Amacayacu River">
-                  
-                </div>
-          
-                <!-- Segunda imagen -->
-                <div class="carousel-item">
-                  
-                    <img src="images/b4.jpg" class="d-block w-100" alt="Amacayacu River">
-                  
-                </div>
-          
-                <!-- Tercera imagen -->
-                <div class="carousel-item">
-                  
-                    <img src="images/b6.jpg" class="d-block w-100" alt="Amacayacu River">
-                  
-                </div>
-          
-                <!-- Cuarta imagen -->
-                <div class="carousel-item">
-                  
-                    <img src="images/b8.jpg" class="d-block w-100" alt="Amacayacu River">
-                  
-                </div>
-          
-              </div>
-          
-              <!-- Botones de control del carrusel -->
-              <a class="carousel-control-prev" href="#carouselBeaches" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselBeaches" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
+
+            <div class="fotorama" data-nav="thumbs" data-allowfullscreen="true">
+              <img src="images/b2.jpg" data-full="images/b2.jpg" alt="Amacayacu River">
+              <img src="images/b4.jpg" data-full="images/b4.jpg" alt="Amacayacu River">
+              <img src="images/b6.jpg" data-full="images/b6.jpg" alt="Amacayacu River">
+              <img src="images/b8.jpg" data-full="images/b8.jpg" alt="Amacayacu River">
             </div>
-          
+
           </li>
-          
+
 
           <li>
             <h2>
-              <strong>Craft Classes</strong>
-              &nbsp;-&nbsp;
+              <strong>Craft Classes</strong> &nbsp;-&nbsp;
               Learn how to make simple pieces of art from the skilled natives.
             </h2>
-          
-            <!-- Carrusel de Bootstrap -->
-            <div id="carouselCraftClasses" class="carousel slide" data-ride="false">
-              <div class="carousel-inner">
-          
-                <!-- Primera imagen -->
-                <div class="carousel-item active">
-                  
-                    <img src="images/cc8.jpg" class="d-block w-100" alt="Highslide JS">
-                  
-                  <div class="highslide-caption">Chambira Palm leaves used to make rope for crafts</div>
-                </div>
-          
-                <!-- Segunda imagen -->
-                <div class="carousel-item">
-                  
-                    <img src="images/cc2.jpg" class="d-block w-100" alt="Chambira">
-                  
-                </div>
-          
-                <!-- Tercera imagen -->
-                <div class="carousel-item">
-                  
-                    <img src="images/cc4.jpg" class="d-block w-100" alt="Highslide JS">
-                  
-                </div>
-          
-                <!-- Cuarta imagen -->
-                <div class="carousel-item">
-                  
-                    <img src="images/cc10.jpg" class="d-block w-100" alt="Highslide JS">
-                  
-                </div>
-          
-                <!-- Quinta imagen -->
-                <div class="carousel-item">
-                  
-                    <img src="images/cc6.jpg" class="d-block w-100" alt="Highslide JS">
-                  
-                </div>
-          
-                <!-- Sexta imagen -->
-                <div class="carousel-item">
-                  
-                    <img src="images/cc12.jpg" class="d-block w-100" alt="Highslide JS">
-                  
-                </div>
-          
-                <!-- Séptima imagen -->
-                <div class="carousel-item">
-                  
-                    <img src="images/basket2.jpg" class="d-block w-100" alt="Highslide JS">
-                  
-                </div>
-          
-              </div>
-          
-              <!-- Botones de control del carrusel -->
-              <a class="carousel-control-prev" href="#carouselCraftClasses" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselCraftClasses" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
+
+            <div class="fotorama" data-nav="thumbs" data-allowfullscreen="true">
+              <img src="images/cc8.jpg" data-full="images/cc8.jpg"
+                alt="Chambira Palm leaves used to make rope for crafts" />
+              <img src="images/cc2.jpg" data-full="images/cc2.jpg" alt="Chambira" />
+              <img src="images/cc4.jpg" data-full="images/cc4.jpg" alt="Craft Class Image" />
+              <img src="images/cc10.jpg" data-full="images/cc10.jpg" alt="Craft Class Image" />
+              <img src="images/cc6.jpg" data-full="images/cc6.jpg" alt="Craft Class Image" />
+              <img src="images/cc12.jpg" data-full="images/cc12.jpg" alt="Craft Class Image" />
+              <img src="images/basket2.jpg" data-full="images/basket2.jpg" alt="Craft Class Image" />
             </div>
-          
+
           </li>
-          
+
 
           <li>
             <h2>
@@ -1017,346 +545,187 @@
               Have a tattoo done using the pulp of the huito fruit. These temporary creations will last from 1 to 3
               weeks.
             </h2>
-          
-            <!-- Carrusel de Bootstrap -->
-            <div id="carouselTraditionalTattoos" class="carousel slide" data-ride="false">
-              <div class="carousel-inner">
-          
-                <!-- Primera imagen -->
-                <div class="carousel-item active">
-            
-                    <img src="images/tt2.jpg" class="d-block w-100" alt="Lindura">
-                  
-                </div>
-          
-                <!-- Segunda imagen -->
-                <div class="carousel-item">
-                
-                    <img src="images/tatoo.jpg" class="d-block w-100" alt="Lindura">
-                  
-                </div>
-          
-                <!-- Tercera imagen -->
-                <div class="carousel-item">
-                  
-                    <img src="images/tattoo.jpg" class="d-block w-100" alt="Lindura">
-                  
-                </div>
-          
-              </div>
-          
-              <!-- Botones de control del carrusel -->
-              <a class="carousel-control-prev" href="#carouselTraditionalTattoos" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselTraditionalTattoos" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
+
+            <div class="fotorama" data-nav="thumbs" data-allowfullscreen="true">
+              <img src="images/tt2.jpg" data-full="images/tt2.jpg" alt="Lindura" />
+              <img src="images/tatoo.jpg" data-full="images/tatoo.jpg" alt="Lindura" />
+              <img src="images/tattoo.jpg" data-full="images/tattoo.jpg" alt="Lindura" />
             </div>
-          
-            <li>
-              <h2>
-                <strong>Nocturnal walks</strong> &nbsp;- &nbsp;
-                Night is the most active time for many animals and maybe the only time to catch a glimpse of many species.
-              </h2>
-            
-              <!-- Carrusel de Bootstrap -->
-              <div id="carouselNocturnalWalks" class="carousel slide" data-ride="false">
-                <div class="carousel-inner">
-            
-                  <!-- Primera imagen -->
-                  <div class="carousel-item active">
-                    
-                      <img src="images/nw2.jpg" class="d-block w-100" alt="Treefrog">
-                  
-                    <div class="highslide-caption">Treefrog - Family: <i>Kinkajou</i></div>
-                  </div>
-            
-                  <!-- Segunda imagen -->
-                  <div class="carousel-item">
-                    
-                      <img src="images/kinkajou.jpg" class="d-block w-100" alt="Kinkajou">
-                  
-                    <div class="highslide-caption">Kinkajou - <i>Potus Flavus</i></div>
-                  </div>
-            
-                  <!-- Tercera imagen -->
-                  <div class="carousel-item">
-                    
-                      <img src="images/nw4.jpg" class="d-block w-100" alt="Murine Mouse Opossum">
-                  
-                    <div class="highslide-caption">Murine Mouse Opossum - <i>Marmosa murina</i></div>
-                  </div>
-            
-                  <!-- Cuarta imagen -->
-                  <div class="carousel-item">
-                    
-                      <img src="images/nw6.jpg" class="d-block w-100" alt="Tarantula">
-                  
-                    <div class="highslide-caption">Tarantula - Family: <i>Theraphosidae</i></div>
-                  </div>
-            
-                  <!-- Quinta imagen -->
-                  <div class="carousel-item">
-                    
-                      <img src="images/tailess whip scorpion.jpg" class="d-block w-100" alt="Tailess whip scorpion">
-                    
-                    <div class="highslide-caption">Tailess whip scorpion - Order: <i>Amblypygida</i></div>
-                  </div>
-            
-                  <!-- Sexta imagen -->
-                  <div class="carousel-item">
-                    
-                      <img src="images/treesnake.jpg" class="d-block w-100" alt="Treesnake">
-                  
-                    <div class="highslide-caption"><i>Imantodes cenchoa</i></div>
-                  </div>
-            
-                  <!-- Séptima imagen -->
-                  <div class="carousel-item">
-                    
-                      <img src="images/leaffrog.jpg" class="d-block w-100" alt="Giant Leaf Frog">
-                  
-                    <div class="highslide-caption">Giant Leaf Frog - <i>Philomedusa bicolor</i></div>
-                  </div>
-            
-                </div>
-            
-                <!-- Botones de control del carrusel -->
-                <a class="carousel-control-prev" href="#carouselNocturnalWalks" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselNocturnalWalks" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
-            
-            </li>
-            
 
-            <li>
-              <h2>
-                <strong>Overnight Camping Trips & Treks</strong> &nbsp;- &nbsp;
-                Leave the comforts of the cabins and spend as many days as you like exploring the fascinating rainforest.
-              </h2>
-            
-              <!-- Carrusel de Bootstrap -->
-              <div id="carouselCamping" class="carousel slide" data-ride="false">
-                <div class="carousel-inner">
-            
-                  <!-- Primera imagen -->
-                  <div class="carousel-item active">
-                    <img src="images/camp1.jpg" class="d-block w-100" alt="Our standard hammock and tarp setup">
-                    <div class="carousel-caption">Our standard hammock and tarp setup</div>
-                  </div>
-            
-                  <!-- Segunda imagen -->
-                  <div class="carousel-item">
-                    <img src="images/camp2.jpg" class="d-block w-100" alt="Our standard hammock and tarp setup">
-                    <div class="carousel-caption">Our standard hammock and tarp setup</div>
-                  </div>
-            
-                  <!-- Tercera imagen -->
-                  <div class="carousel-item">
-                    <img src="images/camp3.jpg" class="d-block w-100" alt="Our standard hammock and tarp setup">
-                    <div class="carousel-caption">Our standard hammock and tarp setup</div>
-                  </div>
-            
-                  <!-- Cuarta imagen -->
-                  <div class="carousel-item">
-                    <img src="images/campfire.jpg" class="d-block w-100" alt="Our guide Rodolfo tending a campfire in a rain storm">
-                    <div class="carousel-caption">Our guide Rodolfo tending a campfire in a rain storm</div>
-                  </div>
-            
-                  <!-- Quinta imagen -->
-                  <div class="carousel-item">
-                    <img src="images/camp walk.jpg" class="d-block w-100" alt="Trekking through the forest">
-                    <div class="carousel-caption">Trekking through the forest</div>
-                  </div>
-            
-                  <!-- Sexta imagen -->
-                  <div class="carousel-item">
-                    <img src="images/forest morning.jpg" class="d-block w-100" alt="The forest in the early morning">
-                    <div class="carousel-caption">The forest in the early morning</div>
-                  </div>
-            
-                </div>
-            
-                <!-- Botones de control del carrusel -->
-                <a class="carousel-control-prev" href="#carouselCamping" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselCamping" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
-            
-            </li>
-            
+          <li>
+            <h2>
+              <strong>Nocturnal walks</strong> &nbsp;- &nbsp;
+              Night is the most active time for many animals and maybe the only time to catch a glimpse of many species.
+            </h2>
 
-            <li>
-              <h2>
-                <strong>Wildlife Sanctuary</strong> &nbsp;- &nbsp;
-                See a wide variety of monkeys up close at the
-                <a href="http://www.yoiecotours.com/maikuchiga.html"><b>Maikuchiga</b></a>
-                sanctuary. Enjoy this rare opportunity to interact with a number of species as they roam freely on the
-                center's grounds.
-              </h2>
-            
-              <!-- Carrusel de Bootstrap -->
-              <div id="carouselWildlife" class="carousel slide" data-ride="false">
-                <div class="carousel-inner">
-            
-                  <!-- Primera imagen -->
-                  <div class="carousel-item active">
-                    <img src="images/rc2.jpg" class="d-block w-100" alt="6 primate species all in 1 photo">
-                    <div class="carousel-caption">6 primate species all in 1 photo</div>
-                  </div>
-            
-                  <!-- Segunda imagen -->
-                  <div class="carousel-item">
-                    <img src="images/pu.jpg" class="d-block w-100" alt="Monk Saki Monkey - Pithecia monachus">
-                    <div class="carousel-caption">Monk Saki Monkey - <i>Pithecia monachus</i></div>
-                  </div>
-            
-                  <!-- Tercera imagen -->
-                  <div class="carousel-item">
-                    <img src="images/rc4.jpg" class="d-block w-100" alt="Common Wooly Monkey - Lagothrix lagothricus">
-                    <div class="carousel-caption">Common Wooly Monkey - <i>Lagothrix lagothricus</i></div>
-                  </div>
-            
-                  <!-- Cuarta imagen -->
-                  <div class="carousel-item">
-                    <img src="images/rc6.jpg" class="d-block w-100" alt="Red Howler Monkey - Alouata seniculus">
-                    <div class="carousel-caption">Red Howler Monkey - <i>Alouata seniculus</i></div>
-                  </div>
-            
-                  <!-- Quinta imagen -->
-                  <div class="carousel-item">
-                    <img src="images/rc8.jpg" class="d-block w-100" alt="Brown Capuchin Monkey - Cebus apella">
-                    <div class="carousel-caption">Brown Capuchin Monkey - <i>Cebus apella</i></div>
-                  </div>
-            
-                  <!-- Sexta imagen -->
-                  <div class="carousel-item">
-                    <img src="images/rc10.jpg" class="d-block w-100" alt="Pygmy Marmoset - Cebuella pygmaea">
-                    <div class="carousel-caption">Pygmy Marmoset - <i>Cebuella pygmaea</i></div>
-                  </div>
-            
-                  <!-- Séptima imagen -->
-                  <div class="carousel-item">
-                    <img src="images/rc12.jpg" class="d-block w-100" alt="Dusky Titi Monkey - Callicebus moloch">
-                    <div class="carousel-caption">Dusky Titi Monkey - <i>Callicebus moloch</i></div>
-                  </div>
-            
-                  <!-- Octava imagen -->
-                  <div class="carousel-item">
-                    <img src="images/rc14.jpg" class="d-block w-100" alt="Brown Throated Three Toed Sloth - Bradypus variegatus">
-                    <div class="carousel-caption">Brown Throated Three Toed Sloth - <i>Bradypus variegatus</i></div>
-                  </div>
-            
-                </div>
-            
-                <!-- Botones de control del carrusel -->
-                <a class="carousel-control-prev" href="#carouselWildlife" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselWildlife" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
+            <div class="fotorama" data-nav="thumbs" data-allowfullscreen="true">
+              <img src="images/nw2.jpg" data-full="images/nw2.jpg" alt="Treefrog"
+                data-caption="Treefrog - Family: <i>Kinkajou</i>" />
+              <img src="images/kinkajou.jpg" data-full="images/kinkajou.jpg" alt="Kinkajou"
+                data-caption="Kinkajou - <i>Potus Flavus</i>" />
+              <img src="images/nw4.jpg" data-full="images/nw4.jpg" alt="Murine Mouse Opossum"
+                data-caption="Murine Mouse Opossum - <i>Marmosa murina</i>" />
+              <img src="images/nw6.jpg" data-full="images/nw6.jpg" alt="Tarantula"
+                data-caption="Tarantula - Family: <i>Theraphosidae</i>" />
+              <img src="images/tailess whip scorpion.jpg" data-full="images/tailess whip scorpion.jpg"
+                alt="Tailess whip scorpion" data-caption="Tailess whip scorpion - Order: <i>Amblypygida</i>" />
+              <img src="images/treesnake.jpg" data-full="images/treesnake.jpg" alt="Treesnake"
+                data-caption="<i>Imantodes cenchoa</i>" />
+              <img src="images/leaffrog.jpg" data-full="images/leaffrog.jpg" alt="Giant Leaf Frog"
+                data-caption="Giant Leaf Frog - <i>Philomedusa bicolor</i>" />
+            </div>
+
+          </li>
 
 
-              <div id="main__content" ">
-                <div id="banner-content">
-                <img src="images/banner-maikuchiga.jpg" class="img-responsive" alt="Rates" />
+          <li>
+            <h2>
+              <strong>Overnight Camping Trips & Treks</strong> &nbsp;- &nbsp;
+              Leave the comforts of the cabins and spend as many days as you like exploring the fascinating rainforest.
+            </h2>
+
+            <div class="fotorama" data-nav="thumbs" data-allowfullscreen="true">
+              <img src="images/camp1.jpg" data-full="images/camp1.jpg" alt="Our standard hammock and tarp setup"
+                data-caption="Our standard hammock and tarp setup">
+              <img src="images/camp2.jpg" data-full="images/camp2.jpg" alt="Our standard hammock and tarp setup"
+                data-caption="Our standard hammock and tarp setup">
+              <img src="images/camp3.jpg" data-full="images/camp3.jpg" alt="Our standard hammock and tarp setup"
+                data-caption="Our standard hammock and tarp setup">
+              <img src="images/campfire.jpg" data-full="images/campfire.jpg"
+                alt="Our guide Rodolfo tending a campfire in a rain storm"
+                data-caption="Our guide Rodolfo tending a campfire in a rain storm">
+              <img src="images/camp walk.jpg" data-full="images/camp walk.jpg" alt="Trekking through the forest"
+                data-caption="Trekking through the forest">
+              <img src="images/forest morning.jpg" data-full="images/forest morning.jpg"
+                alt="The forest in the early morning" data-caption="The forest in the early morning">
+            </div>
+
+          </li>
+
+
+          <li>
+            <h2>
+              <strong>Wildlife Sanctuary</strong> &nbsp;- &nbsp;
+              See a wide variety of monkeys up close at the
+              <a href="http://www.yoiecotours.com/maikuchiga.html"><b>Maikuchiga</b></a>
+              sanctuary. Enjoy this rare opportunity to interact with a number of species as they roam freely on the
+              center's grounds.
+            </h2>
+
+            <div class="fotorama" data-nav="thumbs" data-allowfullscreen="true">
+              <img src="images/rc2.jpg" data-full="images/rc2.jpg" alt="6 primate species all in 1 photo"
+                data-caption="6 primate species all in 1 photo">
+              <img src="images/pu.jpg" data-full="images/pu.jpg" alt="Monk Saki Monkey - Pithecia monachus"
+                data-caption="Monk Saki Monkey - <i>Pithecia monachus</i>">
+              <img src="images/rc4.jpg" data-full="images/rc4.jpg" alt="Common Wooly Monkey - Lagothrix lagothricus"
+                data-caption="Common Wooly Monkey - <i>Lagothrix lagothricus</i>">
+              <img src="images/rc6.jpg" data-full="images/rc6.jpg" alt="Red Howler Monkey - Alouata seniculus"
+                data-caption="Red Howler Monkey - <i>Alouata seniculus</i>">
+              <img src="images/rc8.jpg" data-full="images/rc8.jpg" alt="Brown Capuchin Monkey - Cebus apella"
+                data-caption="Brown Capuchin Monkey - <i>Cebus apella</i>">
+              <img src="images/rc10.jpg" data-full="images/rc10.jpg" alt="Pygmy Marmoset - Cebuella pygmaea"
+                data-caption="Pygmy Marmoset - <i>Cebuella pygmaea</i>">
+              <img src="images/rc12.jpg" data-full="images/rc12.jpg" alt="Dusky Titi Monkey - Callicebus moloch"
+                data-caption="Dusky Titi Monkey - <i>Callicebus moloch</i>">
+              <img src="images/rc14.jpg" data-full="images/rc14.jpg"
+                alt="Brown Throated Three Toed Sloth - Bradypus variegatus"
+                data-caption="Brown Throated Three Toed Sloth - <i>Bradypus variegatus</i>">
+            </div>
+
+
+            <div id="main__content">
+              <div id="banner-content">
+                <a href="images/banner-maikuchiga.jpg" data-fancybox="gallery">
+                  <img src="images/banner-maikuchiga.jpg" class="img-responsive" alt="Rates" />
+                </a>
               </div>
               <div id="pages-content">
-                <h1><img src="images/maikuchiga.jpg"  class="img-responsive" /></a></h1>
-              
+                <h1><img src="images/maikuchiga.jpg" class="img-responsive" /></h1>
                 <div class="row passage">
-                  
                   <div class="col-sm-8 maikuchiga__historia">
-                    
-                      <a href="activities.html#maikuchiga"  style="text-decoration: none">Maikuchiga</a>
-                      <span>
-                      , which translated from the indigenous language of Tikuna means monkey&#x27;s story, is an animal sanctuary and rehabilitation center located in the heart of the Amazon. Founded approximately 11 years ago by biologist Sara Bennett the sanctuary provides a safe place for animals who have been confiscated from the illegal traffic of animals.  The main focus is rehabilitating wooly monkeys (Lagothrix lagothricha), an Amazonian primate species currently under threat of extinction.
-                      </span>
-                      <p>
-                      Currently the Maikuchiga foundation has 2 other important functions. First is the education of local communities on the importance of conservation. Aside from Sara the staff is made up entirely of members of the local indigenous community.  Together they also hold work shops with the younger generation and hold meetings with hunters of surrounding communities in the hope of establishing sustainable hunting practices. Their other function and currently their primary focus is monitoring the wild wooly monkey populations. This research initiative is focused on answering a number of behavioral questions, including forest use and troop dynamics. Staff will head out into the forest for a week every month tracking and taking notes on the various wooly monkey troops along with any other wild monkeys and mammals they come across. 
+                    <a href="activities.html#maikuchiga" style="text-decoration: none">Maikuchiga</a>
+                    <span>
+                      , which translated from the indigenous language of Tikuna means monkey's story, is an animal
+                      sanctuary and rehabilitation center located in the heart of the Amazon. Founded approximately
+                      11 years ago by biologist Sara Bennett the sanctuary provides a safe place for animals who
+                      have been confiscated from the illegal traffic of animals. The main focus is rehabilitating
+                      wooly monkeys (Lagothrix lagothricha), an Amazonian primate species currently under threat
+                      of extinction.
+                    </span>
+                    <p>
+                      Currently the Maikuchiga foundation has 2 other important functions. First is the education
+                      of local communities on the importance of conservation. Aside from Sara the staff is made up
+                      entirely of members of the local indigenous community. Together they also hold work shops
+                      with the younger generation and hold meetings with hunters of surrounding communities in the
+                      hope of establishing sustainable hunting practices. Their other function and currently their
+                      primary focus is monitoring the wild wooly monkey populations. This research initiative is
+                      focused on answering a number of behavioral questions, including forest use and troop dynamics.
+                      Staff will head out into the forest for a week every month tracking and taking notes on the
+                      various wooly monkey troops along with any other wild monkeys and mammals they come across.
                     </p>
                   </div>
-                  <div class="col-sm-4 xs-hide passage__image passage__image--right">
-                    <a href="images/sara.jpg" class="highslide center-block" style="background-image: url('images/sara.jpg'); height: 400px;" onclick="return hs.expand(this)">
-                        <img src="images/sara.jpg" alt="Highslide JS" title="Click to enlarge"  class="img-responsive" />
-                      </a>
+                  <div class="col-sm-4 xs-hide gallery">
+                    
+                      <img src="images/sara.jpg" alt="Sara" class="gallery-img" />
+                    
+                  </div>
+                  <div id="fullpage" onclick="hideFullPage()">
+                    <span class="close-button" onclick="hideFullPage()">&times;</span>
                   </div>
                 </div>
-              
-                
-              <br> </br>
-              
-              <div class="row passage">
-                  
-                  <div class="col-sm-6 passage__image passage__image--left">
-                    <a href="images/Equipo.jpg" class="highslide" onclick="return hs.expand(this)" style="background-image: url('images/Equipo.jpg'); height: 179px;">
-                        <img src="images/Equipo.jpg" alt="Highslide JS"
-                            title="Click to enlarge"  class="img-responsive" />
-                    </a>
-                    <div class="highslide-caption">The Maikuchiga Crew</div>
-              
+                <br />
+                <div class="row passage">
+                  <div class="col-sm-6 gallery">
+                    
+                      
+                      <img src="images/Equipo.jpg" alt="The Maikuchiga Crew" class="gallery-img" />
+                    
                   </div>
                   <div class="col-sm-6 maikuchiga__historia">
                     <p>
-                      Interested in joining an excursion? Send us an 
-              
-                      <a href="http://www.yoiecotours.com/contact-us.html"> email</a>
-                      requesting more information. 
-              
-                      <br> </br>
+                      Interested in joining an excursion? Send us an
+                      <a href="http://www.yoiecotours.com/contact-us.html"> email</a> requesting more information.
+                      <br />
                       For more information on the sanctuary you can visit their website at:
-                       <a href="http://maikuchiga.blogspot.com/" target="blank" style="text-decoration: none"><b>maikuchiga.blogspot.com</b></a>
-                      <br> </br>
+                      <a href="http://maikuchiga.blogspot.com/" target="_blank" style="text-decoration: none">
+                        <b>maikuchiga.blogspot.com</b>
+                      </a>
+                      <br />
                       If you would like to support their work you can donate by clicking the button below.
-              
-                    </p>	
+                    </p>
                   </div>
+                </div>
               </div>
-              
-              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="maikuchiga__donate-form">
-                <input type="hidden" name="cmd" value="_s-xclick">
-                <input type="hidden" name="hosted_button_id" value="4DBBVJRRRCNGA">
-                <input type="image" src="images/donate-button.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" align="right">
-                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-              </form>
-              
-              </div>
-              
-              
-                   </div>
-              
-              </div>
-              
-              <div class="col-sm-1 col-md-1 hidden-xs"></div>
-              </div>
-            </li>
-            
-          
-        </ul>
-        
-      </div>
+            </div>
 
+
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"
+              class="maikuchiga__donate-form">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="4DBBVJRRRCNGA">
+              <input type="image" src="images/donate-button.gif" border="0" name="submit"
+                alt="PayPal - The safer, easier way to pay online!" align="right">
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+
+      </div>
     </div>
 
-    <div class="col-sm-1 col-md-1 hidden-xs"></div>
+
+  </div>
+
+  </div>
+
+  </div>
+  </li>
+
+
+  </ul>
+
+  </div>
+
+  </div>
+
   </div>
 
   <!-- MAIN CONTENT END -->
@@ -1430,6 +799,7 @@
   "logo": "http://www.yoiecotours.com/images/logo-yoi-ecotours.png"
 }
 </script>
+<script src="script.js"></script>
 
 
 
@@ -1437,7 +807,7 @@
   <!-- FOOTER END -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  
+
 
 
 </html>

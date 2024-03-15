@@ -48,7 +48,8 @@
 		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		  })();
 
-		</script>   
+		</script> 
+ 
 
 	</head>
 	<body>
@@ -231,9 +232,9 @@
 </div>
 
 <div id="main__content" class="col-sm-8 col-md-8 col-xs-10">
-	<div id="banner-content">
-    <img src="images/banner-faq.jpg" alt="Rates" />
-</div>
+    <div id="banner-content">
+        <img src="images/banner-faq.jpg" alt="Imagen" onclick="openFullscreen(this.src)" />
+    </div>
 <div id="pages-content" class="faq">
 	<h1>FREQUENTLY ASKED QUESTIONS</h1>
 	<br>
@@ -255,9 +256,12 @@
 			<A HREF="#q11">Is Malaria a problem?</A> 
 			<A HREF="#q12">What is Yoi Eco Tours doing to help protect the environment?</A>
 		</div>
-		<div class="col-sm-5 hidden-xs">
-			<img class="img-responsive" src="images/faq-7.jpg"/>
+		<div class="col-sm-5 hidden-xs gallery">
+			<img class="gallery-img" src="images/faq-7.jpg"/>
 		</div>
+		<div id="fullpage" onclick="hideFullPage()">
+            <span class="close-button" onclick="hideFullPage()">&times;</span>
+          </div>
 	</div>
 	<h2></h2>
 	</br>
@@ -293,10 +297,10 @@
 		page.
 		</p>
 		</div>
-		<div class="col-sm-4 passage__image passage__image--right">
-		<a href="images/yoi ecolodge 2.jpg" class="highslide center-block" onclick="return hs.expand(this)" style="background-image: url('images/yoi\ ecolodge\ 2.jpg'); height:128px;">
+		<div class="col-sm-4 gallery">
+		
 			<img src="images/yoi ecolodge 2.jpg" alt="Highslide JS"
-			title="Click to enlarge" class="img-responsive " /></a>
+			title="Click to enlarge" class="gallery-img " /></a>
 		</div>
 	</div>
 	<A NAME="q13"> </A><h3>Q.How do I book a tour?</h3>
@@ -319,11 +323,11 @@
 				Although the vast majority of animals guests will come across are harmless, it is true that the Amazon is home to a few less than friendly creatures. However none of them will actively seek out visitors.  As longs as guests follow the directions of their guides they should not have any negative encounters.
 			</p>
 		</div>
-		<div class="col-sm-4 passage__image passage__image--right">
-			<a href="images/spider2.jpg" class="highslide center-block" onclick="return hs.expand(this)" style="background-image: url('images/faq-2.jpg'); height:135px; ">
+		<div class="col-sm-4 gallery">
+			
 				<img src="images/faq-2.jpg" alt="Highslide JS"
-				title="Click to enlarge"  class="img-responsive"/>
-			</a>
+				title="Click to enlarge"  class="gallery-img"/>
+			
 		</div>
 	</div>
 	 <h3><A NAME="q5"></A>Q.Where are you located and how do I get there?</h3>
@@ -364,22 +368,21 @@
 	 </p>
 	<A NAME="q7"> </A><h3>Q.What should I bring?</h3>
 	<p>
-	<div class="row passage">
-		<div class="col-sm-4 passage__image passage__image--left">
-			<a class="center-block" style="background-image: url('images/faq-1.jpg'); height:121px; ">
-				<img src="images/faq-1.jpg" class="img-responsive"/>
-			</a>
+		<div class="row passage">
+			<div class="col-sm-4 gallery">
+				
+					<img src="images/faq-1.jpg" class="gallery-img" />
+				
+			</div>
+			<div class="col-sm-8">
+				<p>
+					<span class="answer">A.</span> 
+					Once guests book their tour they will receive a list of all necessary and recommended items. Some of the most important items are rain boots, rain coat, head lamp and of course a camera to capture all the unforgettable moments. Note that if you don't want to carry bulky rain boots with your luggage we offer them for 
+					<a href="rates.html#boots">sale</a> 
+					and at the end of your visit they can be left with us to be donated to the community.
+				</p>
+			</div>  
 		</div>
-		<div class="col-sm-8">
-			<p>
-			<span class="answer">A.</span> 
-			Once guests book their tour they will receive a list of all necessary and recommended items.  Some of the most important items are rain boots, rain coat, head lamp and of course  a camera  to capture all the unforgettable moments. Note that if you don&#x60;t want to carry bulky rain boots with your luggage we offer them for 
-			<a href="rates.html#boots">sale</a> 
-			and at the end of your visit they can be left with us to be donated to the community.
-			
-			</p>
-		</div>  
-	 </div>
 	 <A NAME="q14"> </A><h3>Q.Which currencies are accepted?</h3>
 	<p>
 		<span class="answer">A.</span>
@@ -412,11 +415,14 @@
 			 Keeping our environmental impact as small as possible is one of our primary goals. By limiting the amount of non-organic waste, limiting the use of fossil fuels, buying as many locally produced organic products as possible and other efforts we are minimizing the negative effects we may have on the surrounding ecosystems.  We are also providing the local indigenous population with an alternate source of income which will lower their reliance on agriculture, hunting and logging.  We also promote educational initiatives within local communities with an emphasis on conservation.
 			</p>
 		</div>
-		<div class="col-sm-4 passage__image passage__image--right">
-			<a href="images/river2.jpg" class="highslide center-block" onclick="return hs.expand(this)" style="background-image: url('images/faq-3.jpg'); height:140px;">
+		<div class="col-sm-4 gallery">
 				<img src="images/faq-3.jpg" alt="Highslide JS"
-				title="Click to enlarge"   class="img-responsive" />
-			</a>
+				title="Click to enlarge"   class="gallery-img" />
+			
 		</div>
 	</div>
 </div>
+<script src="script.js"></script>
+
+</body>
+</html>

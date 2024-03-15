@@ -247,11 +247,12 @@
 		        	Our aim is to provide you with a personalized, intimate, informative and immersive Amazon experience while at the same time conserving this amazing region of the planet. Yoi Eco Tours works closely with the local indigenous community of San Martin who make up 100% of the staff.
 		        	</p>
 	        	</div>
-	        	<div class="col-sm-4 passage__image passage__image--right" >
-	        		<a href="images/path1.jpg" class="highslide center-block" style="background-image: url('images/path1.jpg'); height:135px;" onclick="return hs.expand(this)"  >
-		    				<img class="img-responsive" src="images/about-us-1.jpg" alt="Highslide JS" title="Click to enlarge" >
-		    			</a>
+	        	<div class="gallery col-sm-4 " >
+		    				<img class="gallery-img" src="images/about-us-1.jpg" alt="Highslide JS" title="Click to enlarge" >
 	        	</div>
+            <div id="fullpage" onclick="hideFullPage()">
+              <span class="close-button" onclick="hideFullPage()">&times;</span>
+            </div>
         	</div>
 	        
 	        <h2>Where we are located</h2>
@@ -279,10 +280,9 @@
 			</div>
 	    <h2>San Martín</h2>
 	    	<div class="row passage">
-	    		<div class="col-sm-4 passage__image passage__image--left">
-		            <a href="images/wash.jpg" class="highslide center-block" style="background-image: url('images/wash.jpg'); height: 150px;" onclick="return hs.expand(this)">
-		    			<img src="images/wash.jpg" alt="Highslide JS" title="Click to enlarge"  class="img-responsive">
-		    		</a>
+	    		<div class="col-sm-4 gallery">
+		    			<img src="images/wash.jpg" alt="Highslide JS" title="Click to enlarge"  class="gallery-img">
+
 	    		</div>
 	    		<div class="col-sm-8">
 		    		<p>
@@ -292,12 +292,10 @@
             </div>
         <h2>About the founders</h2>
             <div class="row passage">
-           		<div class="col-sm-5 passage__image passage__image--left">
-					<a href="images/maria2.jpg" class="highslide center-block" onclick="return hs.expand(this)"
-						style="background-image: url(images/maria2.jpg);
-							   height: 129px">
-				    	<img src="" alt="Highslide JS" title="Click to enlarge" class="img-responsive">
-				    </a>
+           		<div class="col-sm-5 gallery">
+					
+				    	<img src="images/maria2.jpg" alt="Highslide JS" title="Click to enlarge" class="gallery-img">
+				    
 				</div>
         		<div class="col-sm-7">
 		            <p>
@@ -309,11 +307,9 @@
 
 			</div>
 			<div class="row passage">
-				<div class="col-sm-5 passage__image passage__image--left">
-		            <a href="images/agusto2.jpg" class="highslide center-block" onclick="return hs.expand(this)" 
-		            	style="background-image: url(images/agusto2.jpg);
-							   height: 129px">
-				    	<img src="" alt="Highslide JS" title="Click to enlarge" class="img-responsive">
+				<div class="col-sm-5 gallery">
+		            
+				    	<img src="images/agusto2.jpg" alt="Highslide JS" title="Click to enlarge" class="gallery-img">
 				    </a>
 			    </div>
 			    <div class="col-sm-7">
@@ -332,10 +328,10 @@
 	            <a href="http://www.yoiecotours.com">tours</a>.
 	            </p>
             </div>
-            <div class="col-sm-5 passage__image passage__image--right">
-            	<a class="center-block" style="background-image: url('images/about-us-3.jpg'); height:160px;"> 
-					<img src="images/about-us-3.jpg" class="img-responsive center-block" alt="Julian Barajas">
-				</a>
+            <div class="col-sm-5 gallery">
+            	
+					<img src="images/about-us-3.jpg" class="gallery-img" alt="Julian Barajas">
+
             </div>
         </div>
 </div>
@@ -413,7 +409,7 @@
 }
 </script>
 
-
+<script src="script.js"></script>
 
 
 <!-- FOOTER END -->
