@@ -104,19 +104,9 @@ img {
     border: 0
 }
 
-.imagen-ampliada {
-    width: 150%; /* Ancho al que se agrandará la imagen */
-    height: 150%; /* Alto al que se agrandará la imagen */
-    transition: 0.5s; /* Duración de la transición */
-  }
+
   
-  img:hover {
-    cursor: zoom-in; /* Cambiar el cursor al pasar el mouse */
-  }
-  
-  img:active {
-    transform: scale(1.5); /* Aplicar la clase "imagen-ampliada" al hacer clic */
-  }
+
 
 
 svg:not(:root) {
@@ -276,9 +266,7 @@ th {
         page-break-inside: avoid
     }
 
-    img {
-        max-width: 100% !important
-    }
+
 
     h2,
     h3,
@@ -903,9 +891,7 @@ th {
     content: "\e139"
 }
 
-.glyphicon-fullscreen:before {
-    content: "\e140"
-}
+
 
 .glyphicon-dashboard:before {
     content: "\e141"
@@ -1977,7 +1963,8 @@ pre code {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
+    text-align: center;
 }
 
 @media (min-width:768px) {
@@ -6130,11 +6117,7 @@ a.badge:hover {
     transition: border .2s ease-in-out
 }
 
-.thumbnail>img,
-.thumbnail a>img {
-    margin-right: auto;
-    margin-left: auto
-}
+
 
 a.thumbnail.active,
 a.thumbnail:focus,
@@ -9999,33 +9982,7 @@ form.paymentform input[type=submit] {
     background: none
 }
 
-.highslide {
-    outline: none;
-    text-decoration: none
-}
 
-.highslide img {
-    border: 2px #fff
-}
-
-.highslide-active-anchor img {
-    visibility: hidden
-}
-
-.highslide-gallery .highslide-active-anchor img {
-    border-color: #000;
-    visibility: visible;
-    cursor: default
-}
-
-.highslide-image {
-    border: 2px solid #fff
-}
-
-.highslide-outline,
-.highslide-wrapper {
-    background: #fff
-}
 
 .glossy-dark {
     background: #111
@@ -10194,9 +10151,7 @@ a.highslide-credits:hover i {
     margin-top: 10px
 }
 
-.img-fullwidth {
-    width: 100%
-}
+
 
 .bg-top {
     background-position: top !important
@@ -10391,3 +10346,32 @@ a.highslide-credits:hover i {
 #block-address #CDSWIDGRN.widGRN .footer {
     height: 28px
 }
+
+#fullpage {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+  }
+  
+  .gallery-img {
+    cursor: pointer;
+  }
+
+  
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
